@@ -35,5 +35,6 @@ class App < Sinatra::Base
       return (@num1*@num2).to_s
     else
       return (@num1/@num2).to_s
+    end
 
 end
