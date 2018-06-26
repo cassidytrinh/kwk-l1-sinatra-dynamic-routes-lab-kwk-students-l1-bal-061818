@@ -30,6 +30,6 @@ class App < Sinatra::Base
     if @op == "add"
       return (@num1+@num2).to_s
     elsif @op == "subtract"
-      return @num1-@num2
+      return (@num1-@num2).to_s
 
 end
