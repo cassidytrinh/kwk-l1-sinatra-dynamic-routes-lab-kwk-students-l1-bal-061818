@@ -38,4 +38,8 @@ class App < Sinatra::Base
     end
   end
 
+  get '/square/:number' do
+    return (params[:number].to_i**2).to_s
+  end
+
 end
